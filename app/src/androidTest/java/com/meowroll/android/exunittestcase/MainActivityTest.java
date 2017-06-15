@@ -32,14 +32,14 @@ public class MainActivityTest {
 
     @Test
     public void testLaunch(){
-        assertNotNull(mActivity.findViewById(R.id.textview1));
+        assertNotNull(mActivity.findViewById(R.id.editText2));
 
 
     }
 
     @Test
     public void testClick(){
-        onView(withId(R.id.btnGoTo)).perform(click());
+        onView(withId(R.id.buttonFtoC)).perform(click());
 
 
 
